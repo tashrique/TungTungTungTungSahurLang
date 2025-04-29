@@ -1,6 +1,6 @@
 # TungTungTungTungSahurLang 🪵🦍
 
-> *"The Italian Brainrot Esoteric Programming Language — powered by croc bombs, shrimp cats, and assassino cappuccinos."*
+> *"The Italian Brainrot Esoteric Programming Language"*
 
 ## Introduction
 TungTungTungTungSahurLang is a Turing-complete esoteric programming language where **every operation is mapped to an Italian Brainrot meme character**. Instead of traditional syntax like `print`, `add`, or `loop`, you use bombastic characters like **Tralalero Tralala** and **Bombardiro Crocodilo** to write your code. Each character has a matching emoji based on their "vibes" and abilities.
@@ -48,9 +48,8 @@ This language is designed to be **chaotic, unserious, Gen Z-coded, and fully bra
 - Example Declaration:
   ```
   🎁🐍 🦈 🌟🌟🌟         # Declare variable 🐍 and assign 3
-  🎁🍤 🦈 🔥🔥🔥        # Declare 🍤 and assign 3 using 🔥 emojis (chaos mode)
   ```
-- Variables are global in scope by default. Future extensions may allow scoped blocks.
+- Variables are global in scope by default.
 - **Use Cases:**
   - Counters
   - Loop control variables
@@ -64,12 +63,8 @@ This language is designed to be **chaotic, unserious, Gen Z-coded, and fully bra
 - Example:
   ```
   🌟🌟🌟 = 3
-  🔥🔥 = 2  # In chaos mode
   ```
-- Consistent counting is required. Mixing different emojis in the same number is not allowed (unless chaos mode is explicitly enabled).
-- **Alternate Representations (Chaos Mode):**
-  - 💧 for water-based counting
-  - 🍕 for pizza-based counting (why not?)
+- Consistent counting is required.
 - **Applications:**
   - Simple arithmetic
   - Input size specification
@@ -79,25 +74,19 @@ This language is designed to be **chaotic, unserious, Gen Z-coded, and fully bra
 
 ---
 
-## Example Program: Countdown from 5 to 1 (Expanded Explanation)
+## Example Program: Countdown from 5 to 1
 
 ```TungTungTungTungSahurLang
-🎁🐇 🦈 🌟🌟🌟🌟🌟        # Declare 🐇 (bunny) and assign 5
+🎁🐇 🦈 🌟🌟🌟🌟🌟        # Declare 🐇 and assign 5
 ☕️🩰 🎁🐇              # While 🐇 > 0:
   🍌🐒 🎁🐇            #     Print 🐇 (number)
   🪵🦍 🎁🐇 🌟         #     Subtract 1 from 🐇
 ```
 
-### Additional Variations / Applications:
-- Replace 🐇 with 🐢 (turtle) to imply slow counting.
-- Use different counting emojis (🔥 for chaos mode).
-- Wrap loop in 😎 mood modifier to add slow mode.
-
 **Possible Uses:**
 - Reverse iteration
 - Delay countdown timers
 - Basic clock simulation
-- Gamified timer for interactions
 
 ---
 
@@ -108,28 +97,60 @@ This language is designed to be **chaotic, unserious, Gen Z-coded, and fully bra
 ☕️🗡️ 🎁🦊             # Print Unicode char corresponding to 65 ("A")
 ```
 
-### Alternate Applications:
-- Printing ASCII banners letter by letter.
-- Generating Unicode symbols dynamically.
-- Building string outputs from numeric memory.
-- Character-based cryptography experiments.
-- Dynamic logo printing using Unicode characters.
+**Alternate Applications:**
+- Printing ASCII banners
+- Generating Unicode symbols dynamically
+- Building string outputs from numeric memory
 
 ---
 
-## Why TungTungTungTungSahurLang Works (Detailed Turing Completeness Proof)
+## Example Program: Sum of First 5 Numbers
+
+```TungTungTungTungSahurLang
+🎁🐍 🦈 🌟                 # Initialize counter to 1
+🎁🦢 🦈 🌟                 # Initialize sum to 0
+☕️🩰 🎁🐍                  # While 🐍 <= 5
+  🐊 🎁🦢 🎁🐍             # Add counter to sum
+  🪵🦍 🎁🐍 🌟🪵🦍🌟         # Increment counter by 1 (add two 🌟)
+```
+
+---
+
+## Example Program: Print even numbers from 2 to 10
+
+```TungTungTungTungSahurLang
+🎁🐘 🦈 🌟🌟                  # Start from 2
+☕️🩰 🎁🐘                    # While 🐘 <= 10
+  🍌🐒 🎁🐘                  # Print 🐘
+  🐘🌵 🎁🐘 🌟🌟             # Multiply 2 to add 2 (double step)
+```
+
+---
+
+## Example Program: Factorial of 4
+
+```TungTungTungTungSahurLang
+🎁🦁 🦈 🌟🌟🌟🌟              # 🦁 = 4
+🎁🐉 🦈 🌟                  # 🐉 = 1 (accumulator)
+☕️🩰 🎁🦁                  # While 🦁 > 0
+  🐘🌵 🎁🐉 🎁🦁             # Multiply accumulator by 🦁
+  🪵🦍 🎁🦁 🌟               # 🦁 -= 1
+🍌🐒 🎁🐉                  # Print factorial result
+```
+
+---
+
+## Why TungTungTungTungSahurLang Works (Turing Completeness)
 
 - 🎁 **Variables = Memory:** Store state across the program.
-- 🐊 **Arithmetic Operators (Add, Subtract, Multiply, Divide, Modulo):** Provide basic calculation capability.
-- 🪐🐄 **Conditionals (If blocks):** Allow decision-making in execution.
+- 🐊 **Arithmetic Operators:** Provide calculation capability.
+- 🪐🐄 **Conditionals (If blocks):** Allow decision-making.
 - ☕️🩰 **Loops (While constructs):** Enable repetition.
-- 🍌🐒 / ☕️🗡️ **Output Operators:** Facilitate interaction with the outside world.
-- 🦐🐈 **Input:** Take values from user/STDIN.
-- 💀📱 **Randomization:** Support nondeterministic behaviors.
+- 🍌🐒 / ☕️🗡️ **Output Operators:** Allow communication with the user.
+- 🦐🐈 **Input:** User-supplied data handling.
+- 💀📱 **Randomization:** Add nondeterministic behavior if needed.
 
-By fulfilling these capabilities, TungTungTungTungSahurLang satisfies the theoretical requirements of a Turing machine, making it Turing complete.
-
-> _"Compile with rizz or go home."_
+Thus, TungTungTungTungSahurLang is fully **Turing complete**.
 
 ---
 
